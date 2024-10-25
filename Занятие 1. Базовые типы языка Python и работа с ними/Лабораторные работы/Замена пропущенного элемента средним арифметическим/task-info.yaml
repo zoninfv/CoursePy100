@@ -9,8 +9,8 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 102
-        length: 103
+      - offset: 152
+        length: 23
         placeholder_text: |-
           # TODO заменить значение пропущенного элемента средним арифметическим
           
@@ -28,7 +28,7 @@ files:
           
           numbers[index_missing_item] = average_of_numbers
           print("Измененный список:", numbers)
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
 status: Unchecked
